@@ -20,9 +20,11 @@ margin-bottom: 20px;
 }
 
 /* Pseudo-class Selector */
-h1:hover {
-color: hot pink;
+h1:hover,
+h2:hover {
+  color: #FF69B4;
 }
+
 
 /* Grouping Selectors */
 #skills, #hobbies, #interest {
